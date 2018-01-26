@@ -23,6 +23,7 @@ class App extends Component {
     }
 
     getChildContext() {
+        let a = 1;
         return {
             user: this.state.username
         }
