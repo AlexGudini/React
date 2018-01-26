@@ -23,7 +23,6 @@ class App extends Component {
     }
 
     getChildContext() {
-        let a = 1;
         return {
             user: this.state.username
         }
@@ -37,6 +36,7 @@ class App extends Component {
     changeLanguage = language => ev => this.setState({ language })
 
     render() {
+        console.log('---', 0);console.log('---', 0)
         console.log('---', 0)
         return (
             <ConnectedRouter history = {history}>
